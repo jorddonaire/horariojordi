@@ -1,0 +1,136 @@
+html {
+font-family: sans-serif;
+width: 55em;
+margin: 0 auto;
+background-color: aquamarine;
+  }
+  @font-face {
+    font-family: 'FASolid';
+    src: url("fa-solid-900.ttf");
+  }
+  
+  table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    border: 2px solid black;
+    width: 2cm;
+        
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+  .tabla2 th {
+background-color: steelblue;
+  }
+  .tabla2 {
+    color: black;
+    background-color: #5985c9;
+    width: 100%;
+    height: 300px;
+    margin-top: 2cm;
+    margin-left: 0.65cm;
+  }
+  
+.avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.toolbar {
+    margin-top: 2cm;
+    background-color: red;
+    color: rgba(255,255,255,0.87);
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.3em;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    padding: 0em 1em 1em 1em;
+}
+
+input.search {
+    background: 0 0;
+    line-height: 26px;
+    border-width: 0 0 1px;
+    color: white;
+    font-size: 100%;
+    flex: 1;
+}
+
+.hide {
+    display: none;
+}
+
+span.search{
+    font-family: 'FASolid';
+    margin-left: auto;
+}
+
+h1,h2,h4 {
+text-align: center;
+color: black;
+}
+td, th {
+border: 1px solid black;
+padding: 20px 40px;
+margin: 2cm;
+}
+
+th {
+background-color: rgb(235,235,235);
+color: black;
+}
+
+th.dias {
+background-color: steelblue;
+color: white;
+}
+th.tut {
+background-color: black;
+color: white;
+}
+th.mp04 {
+background-color: orange;
+color: white;
+}
+th.mp06 {
+background-color: blue;
+color: white;
+}
+th.mp07 {
+background-color: green;
+color: white;
+}
+th.mp08 {
+background-color: rgb(151, 151, 11);
+color: white;
+}
+th.mp12 {
+background-color: purple;
+color: white;
+}
+th.mp10 {
+background-color: red;
+color: white;
+}
+
+tr:nth-child(even) td {
+background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+background-color: rgb(245,245,245);
+}
